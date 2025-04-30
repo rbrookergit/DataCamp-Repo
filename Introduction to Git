@@ -1,1 +1,38 @@
+# Basic Bash Commands
+$ ls
+$ cd
+$ cd-
+$ cd--
 
+#How can I check the state of a repository?
+$ git status
+
+#To see changes to files
+# $ git diff
+# $ git diff filename
+# $ git diff directory
+
+#To add a file to the staging area, use git add filename.
+# $ git add report.txt
+# $ git status
+
+#How do I commit changes?
+# $ git commit
+
+
+Other commands
+  git init [name]
+  cd [name]
+  git status
+
+Converting project into repo
+  git init
+
+Adding to the staging area
+Single File:
+  git add READNE.md
+All modified files; '.' all files in current directory/subs
+  git add .
+
+Making a commit; '-m' allows a log message without opening text editor
+  git commit -m "Adding a README."
